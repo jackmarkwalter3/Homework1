@@ -18,6 +18,12 @@ img {
     float: left;
     margin-right: 15px;
 }
+p {
+    line-height: 2;
+}
+li {
+    display: inline;
+}
 .wrapper {
     min-height: 100%;
 }
@@ -28,6 +34,8 @@ img {
     padding-bottom: 25px;
     padding-left: 20px;
     padding-right: 20px;
+    margin: auto; 
+    margin-top: 100px;
 }
 .space {
     overflow: auto;
@@ -41,4 +49,28 @@ img {
     height: 30px;
     margin-top: -30px;
     clear: both;
+}
+.topNav {
+    background-color: #ffffff;
+    border-bottom: 2px solid #cccccc;
+    width: 100%;
+    overflow: hidden;
+    top: 0;
+    position: fixed;
+}
+.topNav a {
+    display: block;
+    float: right;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.myName {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    float: left;
+    top: 0;
+    margin-left: 240px;
+    border-bottom: 0px;
+    margin-bottom: 0px;
 }
