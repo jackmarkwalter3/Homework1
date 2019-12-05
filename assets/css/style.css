@@ -25,6 +25,14 @@ p {
 li {
     display: inline;
 }
+button {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    height: 30px;
+    width: 90px;
+    border: 0px;
+}
 .wrapper {
     min-height: 100%;
 }
@@ -74,6 +82,9 @@ li {
     background-color: #4caf50;
     color: white;
 }
+.formInputs {
+    width: 950px;
+}
 #myName {
     background-color: #4aaaa5;
     color: #ffffff;
@@ -83,4 +94,8 @@ li {
     border-bottom: 0px;
     margin-bottom: 0px;
     font-size: 32px;
+}
+#message {
+    height: 320px;
+    width: 950px;
 }
